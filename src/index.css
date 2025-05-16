@@ -1,0 +1,37 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bs-body-bg: #fff;
+  --bs-body-color: #212529;
+  --bs-primary: #0d6efd;
+  --bs-card-bg: #fff;
+  --bs-border-color: #dee2e6;
+  --bs-secondary-color: #6c757d;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  --bs-body-bg: #121212;
+  --bs-body-color: #e0e0e0;
+  --bs-primary: #66aaff;
+  --bs-card-bg: #1e1e1e;
+  --bs-border-color: #333;
+  --bs-secondary-color: #a0a0a0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* Dark mode support for cards */
+[data-bs-theme="dark"] .dark-mode-card {
+  background-color: #1f1f1f !important;
+  color: #f1f1f1 !important;
+}
+
+[data-bs-theme="dark"] .dark-mode-card .text-muted {
+  color: #cccccc !important;
+}
+
+[data-bs-theme="dark"] .dark-mode-card .text-secondary {
+  color: #aaaaaa !important;
+}
