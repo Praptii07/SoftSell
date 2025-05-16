@@ -1,8 +1,17 @@
-# React + Vite
+# SoftSell – Software License Resale Platform (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SoftSell is a fictional modern SaaS landing page that markets a platform for buying and selling unused software licenses. Built with React and Vite, the site is fully responsive, includes professional UI sections, and supports dark mode.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎯 One-page responsive layout
+- 🌙 Dark mode toggle
+- 📜 Hero, Features, Why Us, Testimonials, and Contact sections
+- 💬 Customer testimonials with adaptive styling
+- ⚡ Built using **React**, **Vite**, and **Bootstrap 5**
+- 🧠 Clean, semantic HTML with modern accessibility practices
+- 🎨 Easy-to-customize via CSS variables
+
+## 🔧 How to Run
+
+1. Clone or download the repo: https://github.com/Praptii07/SoftSell.git
